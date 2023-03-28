@@ -98,7 +98,7 @@
 					<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</ref>
                </p>
             </availability>
-            <date when="2023-03-27">March 27, 2023</date>
+            <date when="2023-03-28">March 28, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -176,7 +176,7 @@
             </setting>
          </settingDesc>
          <textClass>
-            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+            <catRef scheme="#Parliament" target="#parla.uni"/>
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -193,7 +193,7 @@
          <change when="2023-03-14">
             <name>GitHub Action</name>: Made sample.
 		</change>
-         <change when="2023-03-27">
+         <change when="2023-03-28">
             <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
