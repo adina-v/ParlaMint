@@ -3,8 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2015-12-23-DSPG136 [ParlaMint]</title>
-			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2015-12-23-DSPG136 [ParlaMint]</title>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2015-12-23-DSPG136 [ParlaMint SAMPLE]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2015-12-23-DSPG136 [ParlaMint SAMPLE]</title>
 			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
 			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
 			<meeting ana="#parla.term #PG.9 #parla.uni" n="009">IX Lexislatura</meeting>
@@ -33,7 +33,7 @@
 		<editionStmt>
 			<edition>3.0</edition>
 		</editionStmt>
-		<extent>
+		<extent><!--These numbers do not reflect the size of the sample!-->
 			<measure unit="speeches" quantity="6"/>
 			<measure unit="words" quantity="544"/>
 		</extent>
@@ -63,7 +63,7 @@
 		</projectDesc>
 		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="body" occurs="1"/>
+				<tagUsage gi="body" occurs="1"/><!--These numbers do not reflect the size of the sample!-->
 			</namespace>
 		</tagsDecl>
 	</encodingDesc>
@@ -78,6 +78,8 @@
 		</settingDesc>
 	</profileDesc>
 	<revisionDesc>
+		<change when="2023-03-28">
+			<name>GitHub Action</name>: Made sample.</change>
 		<change when="2023-03-24">
 			<name>Resp</name>
 			: Made XML-TEI.
